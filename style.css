@@ -3,4 +3,10 @@ h1{
 	color:purple;
 	font-family: 'Indie Flower', cursive;
 }
-body
+body {
+	background: url(flower.jpg) no-repeat conter center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
