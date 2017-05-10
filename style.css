@@ -9,3 +9,7 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+li{	font-size:70px;
+	font-color:pink;
+}
