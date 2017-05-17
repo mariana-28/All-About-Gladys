@@ -1,0 +1,14 @@
+h1{
+	font-size:100px;
+	color:yellow;
+	font-family: 'Indie Flower', cursive;
+}
+body {
+	background: url("pink flower.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+li{	font-size:50px;
+	color:yellow;
