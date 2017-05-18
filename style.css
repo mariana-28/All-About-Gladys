@@ -12,3 +12,10 @@ body {
 }
 li{	font-size:50px;
 	color:yellow;
+}
+@keyframes swageffect{
+	0% {color:purple;}
+	25%{color:pink;}
+	50%{color:black;}
+	100%{color:white;}
+}
