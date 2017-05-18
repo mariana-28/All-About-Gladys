@@ -2,6 +2,9 @@ h1{
 	font-size:100px;
 	color:yellow;
 	font-family: 'Indie Flower', cursive;
+	animation-name: colorchange;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
 }
 body {
 	background: url("pink flower.jpg") no-repeat center center fixed;
@@ -13,25 +16,10 @@ body {
 li{	font-size:50px;
 	color:yellow;
 }
-@keyframes swageffect{
-	
-}
-0% {
-    color: purple;
-}
-
-25% {
-    color: yellow;
-}
-
-50% {
-    color: pink;
-}
-
-75% {
-    color: white;
-}
-
-100% {
-    color: white;
+@keyframes colorchange{
+	0%{color:yellow}
+	25%{color:pink}
+	50%{color:black}
+	75%{color:white}
+	100%{color:yellow}
 }
