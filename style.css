@@ -22,12 +22,12 @@ li{	font-size:50px;
 @keyframes colorchange{
        0% {color:yellow;
           font-size:100px;}
-       25%{color:pink
+       25%{color:pink;
           font-size:80px;}
-       50%{color:black
+       50%{color:black;
           font-size:100px;}
-       75%{color:white
+       75%{color:white;
           font-size:80px;}
-       100%{color:yellow
+       100%{color:yellow;
           font-size:100px;}
 
