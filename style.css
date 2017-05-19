@@ -2,6 +2,9 @@ h1{
 	font-size:100px;
 	color:yellow;
 	font-family: 'Indie Flower', cursive;
+	animation-name: colorchange;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
 }
 body {
 	background: url("pink flower.jpg") no-repeat center center fixed;
@@ -16,3 +19,15 @@ ol{
 li{	font-size:50px;
 	color:yellow;
 }
+@keyframes colorchange{
+       0% {color:yellow;
+          font-size:100px;}
+       25%{color:pink
+          font-size:80px;}
+       50%{color:black
+          font-size:100px;}
+       75%{color:white
+          font-size:80px;}
+       100%{color:yellow
+          font-size:100px;}
+
